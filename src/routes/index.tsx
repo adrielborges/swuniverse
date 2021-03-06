@@ -8,8 +8,12 @@ const Routes = () => {
   const {Navigator, Screen} = createStackNavigator();
   return (
     <Navigator initialRouteName="Home">
-      <Screen name="Welcome" component={Home} />
-      <Screen name="CharacterList" component={CharacterList} />
+      <Screen name="Welcome" component={Home} options={{headerShown: false}} />
+      <Screen
+        name="CharacterList"
+        component={CharacterList}
+        options={{title: 'Characters of Star Wars'}}
+      />
       <Screen name="SelectedCharacter" component={SelectedCharacter} />
     </Navigator>
   );
