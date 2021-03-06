@@ -8,7 +8,12 @@ const Home = ({navigation}: StackHeaderProps) => {
   const notAvaliable = () => {
     return Alert.alert(
       'Patience, young Padawan',
-      'This category is not yet available.',
+      'This category is not available yet.',
+      [
+        {
+          text: 'I will be patient',
+        },
+      ],
     );
   };
 
@@ -36,14 +41,14 @@ const Home = ({navigation}: StackHeaderProps) => {
         </S.CardsContainerWrapLine>
 
         <S.CardsContainerWrapLine>
-          <S.Card>
+          <S.Card onPress={notAvaliable}>
             <S.CardImage
               source={require('../../assets/card-images/planets.png')}
             />
             <S.CardText>Coming soon...</S.CardText>
           </S.Card>
 
-          <S.Card>
+          <S.Card onPress={notAvaliable}>
             <S.CardImage
               source={require('../../assets/card-images/movies.png')}
             />
