@@ -1,18 +1,57 @@
 import React from 'react';
-import {Button, Text, View} from 'react-native';
 import {StackHeaderProps} from '@react-navigation/stack';
 
-// import { Container } from './styles';
+import * as S from './styles';
+import {Alert} from 'react-native';
 
 const Home = ({navigation}: StackHeaderProps) => {
+  const notAvaliable = () => {
+    return Alert.alert(
+      'Patience, young Padawan',
+      'This category is not yet available.',
+    );
+  };
+
   return (
-    <View>
-      <Text>Home Screen</Text>
-      <Button
-        title="Go to Char List"
-        onPress={() => navigation.navigate('CharacterList')}
-      />
-    </View>
+    <S.Container>
+      <S.H1>Welcome to the Star Wars Universe</S.H1>
+
+      <S.H2>Select a category to discover more of the universe:</S.H2>
+
+      <S.CardsContainer>
+        <S.CardsContainerWrapLine>
+          <S.Card onPress={() => navigation.navigate('CharacterList')}>
+            <S.CardImage
+              source={require('../../assets/card-images/characters.png')}
+            />
+            <S.CardText>Characters</S.CardText>
+          </S.Card>
+
+          <S.Card onPress={notAvaliable}>
+            <S.CardImage
+              source={require('../../assets/card-images/spaceship.png')}
+            />
+            <S.CardText>Coming soon...</S.CardText>
+          </S.Card>
+        </S.CardsContainerWrapLine>
+
+        <S.CardsContainerWrapLine>
+          <S.Card>
+            <S.CardImage
+              source={require('../../assets/card-images/planets.png')}
+            />
+            <S.CardText>Coming soon...</S.CardText>
+          </S.Card>
+
+          <S.Card>
+            <S.CardImage
+              source={require('../../assets/card-images/movies.png')}
+            />
+            <S.CardText>Coming soon...</S.CardText>
+          </S.Card>
+        </S.CardsContainerWrapLine>
+      </S.CardsContainer>
+    </S.Container>
   );
 };
 

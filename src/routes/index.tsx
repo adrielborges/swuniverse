@@ -8,7 +8,7 @@ const Routes = () => {
   const {Navigator, Screen} = createStackNavigator();
   return (
     <Navigator initialRouteName="Home">
-      <Screen name="Home" component={Home} />
+      <Screen name="Welcome" component={Home} />
       <Screen name="CharacterList" component={CharacterList} />
       <Screen name="SelectedCharacter" component={SelectedCharacter} />
     </Navigator>
