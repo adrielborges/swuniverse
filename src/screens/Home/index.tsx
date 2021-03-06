@@ -1,10 +1,12 @@
 import React from 'react';
-import {StackHeaderProps} from '@react-navigation/stack';
+import {useNavigation} from '@react-navigation/native';
 
 import * as S from './styles';
 import {Alert} from 'react-native';
 
-const Home = ({navigation}: StackHeaderProps) => {
+const Home = () => {
+  const {navigate} = useNavigation();
+
   const notAvaliable = () => {
     return Alert.alert(
       'Patience, young Padawan',
@@ -25,7 +27,7 @@ const Home = ({navigation}: StackHeaderProps) => {
 
       <S.CardsContainer>
         <S.CardsContainerWrapLine>
-          <S.Card onPress={() => navigation.navigate('CharacterList')}>
+          <S.Card onPress={() => navigate('CharacterList')}>
             <S.CardImage
               source={require('../../assets/card-images/characters.png')}
             />
