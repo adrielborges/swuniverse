@@ -8,7 +8,7 @@ declare const global: {HermesInternal: null | {}};
 const App = () => {
   return (
     <NavigationContainer>
-      <Text>Hello World!</Text>
+      <Text>Hello React-Navigation!</Text>
     </NavigationContainer>
   );
 };
