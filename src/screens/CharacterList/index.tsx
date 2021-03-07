@@ -12,7 +12,7 @@ import * as S from './styles';
 export interface ICharacter {
   name: string;
   height: string;
-  mass: String;
+  mass: string;
   hair_color: string;
   skin_color: string;
   eye_color: string;
@@ -66,7 +66,7 @@ const CharacterList = () => {
   }, []);
 
   const renderCharacters = ({item}: {item: ICharacter}) => (
-    <S.ListItem onPress={() => navigate('SelectedCharacter')}>
+    <S.ListItem onPress={() => navigate('SelectedCharacter', item)}>
       <S.ListItemTitleContainer>
         <IconFontAwesome size={26} name="user" />
         <S.ListItemText numberOfLines={1}>{item.name}</S.ListItemText>
