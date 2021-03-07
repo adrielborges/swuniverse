@@ -1,6 +1,6 @@
 <h1 align="center"> Star Wars Universe </h1>
 <h4 align="center">
-  Projeto para conhecer mais do universo.
+  Projeto destinado para conhecer mais do universo.
 </h4>
 
 <div align="center">
@@ -11,15 +11,18 @@
 </div>
 
 <p align="center">
-  <a href="#:memo:-Donwload-do-Projeto">Donwload do Projeto</a>
+  <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
   <!-- &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#:iphone:-Donwload-no-Celular">Download no Celular</a> -->
+  <a href="#iphone-donwload-no-celular">Download no Celular</a>-->
 </p>
 
-<div width="500" height="800">
+<div  align="center" >
 
-![Screenshot1](https://user-images.githubusercontent.com/47395305/107866755-b3550800-6e52-11eb-93f0-7be3360b7d87.jpg)
-![Screenshot1](https://user-images.githubusercontent.com/47395305/107866757-b4863500-6e52-11eb-9023-7016eb9ed02c.jpg)
+![20210307_203619](https://user-images.githubusercontent.com/47395305/110259440-55fe3380-7f86-11eb-9f75-73c2c63e5d37.jpg)
+![20210307_203639](https://user-images.githubusercontent.com/47395305/110259442-572f6080-7f86-11eb-83d2-7a946d6fa2de.jpg)
+![20210307_203703](https://user-images.githubusercontent.com/47395305/110259443-572f6080-7f86-11eb-86d0-a45fa5207a58.jpg)
+![20210307_203535](https://user-images.githubusercontent.com/47395305/110259445-57c7f700-7f86-11eb-8d33-fb11caf44ba5.jpg)
+
 </div>
 
 ## :memo: Donwload do Projeto
@@ -35,7 +38,7 @@ git clone
 2. Entre na pasta do projeto.
 
 ```bash
-  cd MoviesList
+  cd swuniverso
 ```
 3. Instale as dependências.
 
@@ -48,20 +51,22 @@ npm install
 yarn
 ```
 4. Para iniciar a aplicação:
-* **npm**
+* **npx**
 ```bash
 npx react-native run-android
-```
-* **yarn**
-```bash
-yarn android
 ```
 
 **Obs: O projeto foi apenas configurado para android.
 
-<!-- ## :iphone: Donwload no Celular
+<div align="center">
 
-QRCODE -->
+ ## :iphone: Donwload no Celular
+
+<img  align="center" src="https://user-images.githubusercontent.com/47395305/107876741-8b8f8f80-6ea6-11eb-9610-531f4957758f.png"/>
+
+Lembre-se apenas de dar permissão para seu celular baixar e instalar de fontes desconhecidas.
 
 ---
 Projeto criado por <a href="https://www.linkedin.com/in/adriel-borgesti" >Adriel Borges</a>.
+
+</div>
