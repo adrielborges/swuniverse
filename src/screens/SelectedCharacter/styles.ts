@@ -26,11 +26,22 @@ export const CardItem = styled.View`
   padding: 0px 16px;
 `;
 
+export const CardTitleContainer = styled.View`
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const CardTitleText = styled.Text`
   font-size: 18px;
   font-weight: 700;
+
+  color: #1c1e22;
+
+  margin-left: 8px;
 `;
 export const CardInfoText = styled.Text`
   font-size: 26px;
   font-weight: 700;
+  color: #1c1e22;
 `;
