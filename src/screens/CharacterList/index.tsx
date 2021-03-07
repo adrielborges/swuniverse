@@ -66,7 +66,9 @@ const CharacterList = () => {
   }, []);
 
   const renderCharacters = ({item}: {item: ICharacter}) => (
-    <S.ListItem onPress={() => navigate('SelectedCharacter', item)}>
+    <S.ListItem
+      data-testid="characterItem"
+      onPress={() => navigate('SelectedCharacter', item)}>
       <S.ListItemTitleContainer>
         <IconFontAwesome size={26} name="user" />
         <S.ListItemText numberOfLines={1}>{item.name}</S.ListItemText>
