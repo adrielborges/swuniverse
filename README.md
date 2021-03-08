@@ -67,7 +67,7 @@ npx react-native run-android
 
  ## :iphone: Donwload no Celular
 
-<img  align="center" src="https://user-images.githubusercontent.com/47395305/107876741-8b8f8f80-6ea6-11eb-9610-531f4957758f.png"/>
+<img  align="center" src="https://user-images.githubusercontent.com/47395305/110260568-90b69a80-7f8b-11eb-80e4-767592764802.png"/>
 
 Lembre-se apenas de dar permissão para seu celular baixar e instalar de fontes desconhecidas.
 
