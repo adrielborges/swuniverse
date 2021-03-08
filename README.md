@@ -80,6 +80,12 @@ Lembre-se apenas de dar permissão para seu celular baixar e instalar de fontes 
 
 Basta abrir com o navegador.
 
+ou abrir o terminal na pasta raiz e digitar:
+
+````bash
+ yarn test
+````
+
 </div>
 
 
