@@ -10,7 +10,6 @@
 </div>
 
 <p align="center">
-
   <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#iphone-donwload-no-celular">Download no Celular</a>
