@@ -6,19 +6,14 @@
 <div align="center">
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat&logoColor=fff&logo=typescript)&nbsp;
-
 ![React-Native](https://img.shields.io/badge/-React_Native-0488B0?style=flat&logoColor=fff&logo=react)&nbsp;
-
 </div>
 
 <p align="center">
 
   <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
-
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-
   <a href="#iphone-donwload-no-celular">Download no Celular</a>
-
 </p>
 
 <div  align="center" >
