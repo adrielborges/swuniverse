@@ -10,9 +10,9 @@
 </div>
 
 <p align="center">
-  <a href="#memo-donwload-do-projeto">Donwload do Projeto</a>
+  <a href="#memo-download-do-projeto">Download do Projeto</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#iphone-donwload-no-celular">Download no Celular</a>
+  <a href="#iphone-download-no-celular">Download no Celular</a>
 </p>
 
 <div  align="center" >
@@ -24,7 +24,7 @@
 
 </div>
 
-## :memo: Donwload do Projeto
+## :memo: Download do Projeto
   Para o download do projeto você precisa estar com as configurações requisitadas do <a href="https://reactnative.dev/docs/environment-setup">React-Native</a> já instaladas.
 
   Feito isso, Faça:
@@ -59,7 +59,7 @@ npx react-native run-android
 
 <div align="center">
 
- ## :iphone: Donwload no Celular
+ ## :iphone: Download no Celular
 
 <img  align="center" src="https://user-images.githubusercontent.com/47395305/110260568-90b69a80-7f8b-11eb-80e4-767592764802.png"/>
 
@@ -72,7 +72,7 @@ Lembre-se apenas de dar permissão para seu celular baixar e instalar de fontes 
 
  ### Testes
 
- Os Teste estão dentro de:
+ Os Testes estão dentro de:
 
 ````bash
  coverage/lcov-report/index.html
